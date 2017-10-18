@@ -1,0 +1,71 @@
+@import url('http://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+#main {
+  width: 70%;
+  height: 170px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+#social_media {
+  position: absolute;
+  top: 35px;
+  right: 40px;
+}
+
+#social_media_2 {
+  margin-top: 20px;
+}
+
+#logo {
+  float: left;
+  width: 130px;
+  padding-top: 15px;
+}
+
+#menulist {
+  width: 100%;
+  padding-top: 72px;
+}
+
+li a {
+  margin-right: 50px;
+  color: white;
+  font-weight: 400;
+  float: right;
+  font-family: 'Lato';
+  font-size: 15px;
+  text-align: center;
+}
+
+li a:hover, li a:visited, li a:link, li a:active {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-family: 'Courgette';
+  font-size: 20px;
+  padding-top: 70px;
+  float: left;
+  left: 0px;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 1780px) {
+  h1 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1430px) {
+  #menulist, #social_media {
+    display: none;
+  }
+  #menu_vertical {
+    display: block!important;
+  }
+}
