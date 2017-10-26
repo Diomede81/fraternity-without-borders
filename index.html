@@ -8,9 +8,10 @@
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/overlay.css">
+  <link rel="stylesheet" type="text/css" href="css/resolution_adjustments.css">
 </head>
 
-<body style="background-color:black" ;>
+<body>
   <nav>
     <div id="main">
       <a href="index.html" target="_blank">
@@ -48,7 +49,7 @@
       </a>
       </svg>
       <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="javascript:void(0)" class="closebtn" >&times;</a>
         <div class="overlay-content">
           <a href="#who">WHO WE ARE</a>
           <a href="#what">WHAT WE DO</a>
@@ -78,20 +79,10 @@
           </svg>
         </div>
       </div>
-      <span style="font-size:30px;cursor:pointer;color:white;" id="menu_vertical" onclick="openNav()">&#9776;</span>
-      <script>
-    function openNav() {
-  document.getElementById("myNav").style.height = "100%";
-}
-
-function closeNav() {
-  document.getElementById("myNav").style.height = "0%";
-}
-    </script>
+      <span style="font-size:30px;cursor:pointer;color:white;" id="menu_vertical">&#9776;</span>
     </div>
   </nav>
 </body>
-
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <script src="js/main.js"></script>

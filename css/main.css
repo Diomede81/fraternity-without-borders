@@ -1,6 +1,10 @@
 @import url('http://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 
+body {
+  background-color: black;
+}
+
 #main {
   width: 70%;
   height: 170px;
@@ -53,19 +57,4 @@ h1 {
   float: left;
   left: 0px;
   letter-spacing: 2px;
-}
-
-@media only screen and (max-width: 1780px) {
-  h1 {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 1430px) {
-  #menulist, #social_media {
-    display: none;
-  }
-  #menu_vertical {
-    display: block!important;
-  }
 }
