@@ -4,9 +4,11 @@
 #main {
   width: 70%;
   height: 170px;
-  margin: 0 auto;
+  margin: 0 15%;
   display: block;
-  position: relative;
+  position: fixed;
+    z-index: 100;
+    background-color:rgba(0,0,0,0.3);
 }
 
 #social_media {
@@ -35,7 +37,7 @@ li a {
   color: white;
   font-weight: 400;
   float: right;
-  font-family: 'Lato';
+  font-family: 'Lato',sans-serif;
   font-size: 15px;
   text-align: center;
 }
@@ -45,9 +47,9 @@ li a:hover, li a:visited, li a:link, li a:active {
   color: white;
 }
 
-h1 {
+nav h1 {
   color: white;
-  font-family: 'Courgette';
+  font-family: 'Courgette',sans-serif;
   font-size: 20px;
   padding-top: 70px;
   float: left;
@@ -55,13 +57,145 @@ h1 {
   letter-spacing: 2px;
 }
 
-@media only screen and (max-width: 1780px) {
-  h1 {
+@media only screen and (min-width: 936px) {
+  nav h1 {
     display: none;
   }
+
+    .position-relative{
+        position:relative;
+    }
+
+
+
+    .full-height{
+        height:100vh;
+    }
+
+    .full-width{
+        width:100%;
+    }
+
+    .first-picture-container{
+        background: url("../img/13.png") no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+
+    }
+    .second-picture-container{
+        background: url("../img/img2.png") no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    .third-picture-container{
+        background: url("../img/img3.png") no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    .fourth-picture-container{
+        background: url("../img/img4.png") no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+
+    }
+    .fifth-picture-container{
+        background: url("../img/img5.png") no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+
+    }
+
+    .main-info-container{
+        position:absolute;
+        bottom:5%;
+        left:50px;
+        color:white;
+        padding:20px;
+        width:45%;
+    }
+
+    .right{
+        left:55%;
+
+    }
+
+    .main-info-container h1{
+        font-family: 'Courgette',sans-serif;
+        font-size:2.5em;
+        text-transform: uppercase;
+        padding:20px;
+        background-color:rgba(166, 30, 127,0.6);
+        border-top-left-radius: 10px;
+
+    }
+    .main-info-container h2{
+        font-size:1.5em;
+        text-transform: uppercase;
+        padding:20px;
+        background: rgba(55, 148, 184,0.6);
+        color:rgb(34,34,34);
+        font-weight:bold;
+
+    }
+
+    .main-info-container ul{
+        padding:20px 0 20px 40px;
+        font-size:1.2em;
+        font-weight:bold;
+        background: rgba(55, 148, 184,0.7);
+        display:flex;
+        text-decoration: none;
+    }
+
+    .main-info-container ul li{
+        padding: 10px 20px 0 20px;
+        border-left:1px solid white;
+        border-right:1px solid white;
+
+    }
+
+    .main-info-container p{
+
+        font-size:0.8em;
+        padding:10px 0;
+        font-weight:bold;
+        color:rgb(34,34,34);
+
+    }
+
+    .main-info-container a{
+        background: rgba(0,0,0,0.4);
+        color:white;
+        font-size:1.2em;
+        font-weight:bold;
+        width:100%;
+    }
+
+    .chevron-down-container{
+        background:rgba(0,0,0,0.3);
+        position:absolute;
+        bottom:0;
+        width:100%;
+        text-align: center;
+    }
+
+    section article div div.chevron-down-container a span.page-down{
+        transform:scale(1.5,1);
+        transition:translate 1s ease, transform 1s ease,font-color 1s ease;
+        color:white;
+        font-weight:bolder;
+    }
+
+    section article div div.chevron-down-container a span.page-down:hover{
+
+        transform:translate(0,2px);
+        color:rgb(134, 188, 44)!important;
+    }
+
 }
 
-@media only screen and (max-width: 1430px) {
+@media only screen and (max-width: 936px) {
   #menulist, #social_media {
     display: none;
   }
@@ -69,3 +203,6 @@ h1 {
     display: block!important;
   }
 }
+
+/* Main Body Section */
+
