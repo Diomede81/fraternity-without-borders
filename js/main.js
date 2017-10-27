@@ -5,7 +5,7 @@ $(document).ready(function(){
 
     $('#fullpage').fullpage({
 
-        anchors :['first-section','second-section','third-section','fourth-section','fifth-section']
+        anchors :['video-section','first-section','second-section','third-section','fourth-section','fifth-section']
 
     });
 
