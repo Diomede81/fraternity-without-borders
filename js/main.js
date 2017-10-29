@@ -1,22 +1,18 @@
 
 $(document).ready(function(){
-    $("#menu_vertical").click(function(){
-        $("#myNav").css("height", "100%");
-    });
-});
-
-$(document).ready(function(){
-    $(".closebtn").click(function(){
-        $("#myNav").css("height", "0%");
-    });
-});
-
-$(document).ready(function(){
 
 
     $('#fullpage').fullpage({
 
-        anchors :['first-section','second-section','third-section','fourth-section','fifth-section']
+        anchors :['video-section','first-section','second-section','third-section','fourth-section','fifth-section']
 
+    });
+
+    $(".closebtn").click(function(){
+        $("#myNav").css("height", "0%");
+    });
+
+    $("#menu_vertical").click(function(){
+        $("#myNav").css("height", "100%");
     });
 });
