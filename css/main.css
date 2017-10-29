@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 
 #main {
-  width: 70%;
+  width: 80%;
   height: 170px;
-  margin: 0 15%;
+  margin-right: 10%;
+  margin-left: 10%;
   display: block;
   position: fixed;
   z-index: 100;
@@ -39,6 +40,7 @@ li a {
   font-family: 'Lato',sans-serif;
   font-size: 15px;
   text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 li a:hover, li a:visited, li a:link, li a:active {
@@ -50,10 +52,11 @@ nav h1 {
   color: white;
   font-family: 'Courgette',sans-serif;
   font-size: 20px;
-  padding-top: 70px;
+  padding-top: 69px;
   float: left;
   left: 0px;
   letter-spacing: 2px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 
@@ -186,7 +189,3 @@ nav h1 {
         transform:translate(0,2px);
         color:rgb(134, 188, 44)!important;
     }
-
-
-
-
