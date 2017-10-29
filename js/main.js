@@ -14,7 +14,6 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 
-
     $('#fullpage').fullpage({
 
         anchors :['first-section','second-section','third-section','fourth-section','fifth-section']
