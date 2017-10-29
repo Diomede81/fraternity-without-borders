@@ -1,18 +1,13 @@
 @import url('http://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 
-body {
-  background-color: black;
-}
-
 #main {
   width: 70%;
   height: 170px;
   margin: 0 15%;
   display: block;
   position: fixed;
-    z-index: 100;
-    background-color:rgba(0,0,0,0.3);
+  z-index: 100;
 }
 
 #social_media {
@@ -60,13 +55,7 @@ nav h1 {
   left: 0px;
   letter-spacing: 2px;
 }
-<<<<<<< HEAD
-=======
 
-@media only screen and (min-width: 936px) {
-  nav h1 {
-    display: none;
-  }
 
     .position-relative{
         position:relative;
@@ -200,16 +189,3 @@ nav h1 {
     }
 
 }
-
-@media only screen and (max-width: 936px) {
-  #menulist, #social_media {
-    display: none;
-  }
-  #menu_vertical {
-    display: block!important;
-  }
-}
-
-/* Main Body Section */
-
->>>>>>> 78d2d26ee422f0aa44daa232a2d00f6518757e64
