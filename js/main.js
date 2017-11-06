@@ -8,6 +8,8 @@ $(document).ready(function(){
 
     });
 
+
+
     $(".closebtn").click(function(){
         $("#myNav").css("height", "0%");
     });
@@ -15,4 +17,33 @@ $(document).ready(function(){
     $("#menu_vertical").click(function(){
         $("#myNav").css("height", "100%");
     });
+
+var string = window.location.pathname.substring(window.location.pathname.lastIndexOf("/")+1);
+
+	if (string.substring(string.lastIndexOf("/")+1) != "index.html") {
+		$(window).scroll(function() {
+			if($(window).scrollTop() > 20) {
+				$("#navigationbar").css("background-color", "white");	
+				$("#navigationbar").css("box-shadow", "0px 5px 5px lightgrey");	
+				$("h1").css("color", "black");	
+				$("h1").css("text-shadow", "none");	
+				$("#menu_vertical").css("color", "black");	
+				$("#menu_vertical").css("text-shadow", "none");	
+				$("li a").css("color", "black");	
+				$("li a").css("text-shadow", "none");	
+			}
+			else {
+				$("#navigationbar").css("background-color", "transparent");	
+				$("#navigationbar").css("box-shadow", "none");	
+				$("h1").css("color", "white");	
+				$("h1").css("text-shadow", "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black");	
+				$("#menu_vertical").css("color", "white");	
+				$("#menu_vertical").css("text-shadow", "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black");	
+				$("li a").css("color", "white");	
+				$("li a").css("text-shadow", "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black");	
+			}
+		});					
+	}		
 });
+    
+
