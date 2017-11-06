@@ -1,7 +1,7 @@
 
 
 @media only screen and (max-width: 1650px) {
-  #main {
+  #navigationbar {
     margin-left: 0%;
     margin-right: 0%;
     width: 100%;
@@ -9,7 +9,7 @@
 }
 
 @media only screen and (max-width: 1250px) {
-  #social_media, h1 {
+   h1 {
     display: none;
   }
 }
@@ -22,7 +22,7 @@
     display: block!important;
   }
 
-  #main {
+  #navigationbar {
     margin-left: 15%;
     margin-right: 15%;
     width: 70%;
