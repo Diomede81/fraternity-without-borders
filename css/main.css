@@ -48,7 +48,7 @@ li a:hover, li a:visited, li a:link, li a:active {
   color: white;
 }
 
-nav h1 {
+#quote {
   color: white;
   font-family: 'Courgette',sans-serif;
   font-size: 20px;
@@ -71,7 +71,7 @@ header {
 }
 
 .portrait {
-    background-image: url("../img/img5.png");
+    background-image: url("../img/64.jpg");
     width: 100%;
     height:500px;
     background-position: center;
@@ -128,6 +128,7 @@ header {
     margin:auto; 
     font-weight: 100;
     padding-top:10px;
+    padding-bottom:10px;
     
 }
 
@@ -329,3 +330,10 @@ header {
     background-attachment: fixed;
 }
 
+
+.fourth-image-container-whoweare{
+    height:100vh;
+    background-image: url("../img/whowearepage1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
