@@ -25,8 +25,8 @@ var string = window.location.pathname.substring(window.location.pathname.lastInd
 			if($(window).scrollTop() > 20) {
 				$("#navigationbar").css("background-color", "white");	
 				$("#navigationbar").css("box-shadow", "0px 5px 5px lightgrey");	
-				$("h1").css("color", "black");	
-				$("h1").css("text-shadow", "none");	
+				$("#quote").css("color", "black");	
+				$("#quote").css("text-shadow", "none");	
 				$("#menu_vertical").css("color", "black");	
 				$("#menu_vertical").css("text-shadow", "none");	
 				$("li a").css("color", "black");	
@@ -35,8 +35,8 @@ var string = window.location.pathname.substring(window.location.pathname.lastInd
 			else {
 				$("#navigationbar").css("background-color", "transparent");	
 				$("#navigationbar").css("box-shadow", "none");	
-				$("h1").css("color", "white");	
-				$("h1").css("text-shadow", "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black");	
+				$("#quote").css("color", "white");	
+				$("#quote").css("text-shadow", "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black");	
 				$("#menu_vertical").css("color", "white");	
 				$("#menu_vertical").css("text-shadow", "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black");	
 				$("li a").css("color", "white");	

@@ -48,7 +48,7 @@ li a:hover, li a:visited, li a:link, li a:active {
   color: white;
 }
 
-nav h1 {
+#quote {
   color: white;
   font-family: 'Courgette',sans-serif;
   font-size: 20px;
@@ -71,7 +71,7 @@ header {
 }
 
 .portrait {
-    background-image: url("../img/img5.png");
+    background-image: url("../img/64.jpg");
     width: 100%;
     height:500px;
     background-position: center;
@@ -128,6 +128,7 @@ header {
     margin:auto; 
     font-weight: 100;
     padding-top:10px;
+    padding-bottom:10px;
     
 }
 
@@ -301,12 +302,14 @@ header {
     }
 
     .donation-container h3{
-        font-size:1.5em;
+        margin:10px 0;
+        font-size:1.8em;
         text-transform: uppercase;
     }
 
     .donation-container p{
-        padding:20px;
+        padding:10px;
+        font-size:1.1em;
 
     }
 
@@ -317,25 +320,131 @@ header {
         background-attachment: fixed;
     }
 
+    .second-image-header-donate{
+
+        width:100%;
+        height:100%;
+
+    }
+
+    .second-image-header-donate h1{
+        margin-bottom:100px;
+        padding:60px 0;
+        width:100%;
+        height:20%;
+        font:2.2em black;
+        background: rgba(255,255,255,0.6);
+        text-align: center;
+    }
+
     .project-donation-form{
         margin-top:50px;
         width:50%;
     }
 
-.third-image-container-donate{
+    .third-image-container-donate{
+        height:100vh;
+        background-image: url("../img/jovens02.JPG");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+.fourth-image-container-donate{
     height:100vh;
     background-image: url("../img/donatepage3.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
 
+<<<<<<< HEAD
 /* footer */
+=======
+
+.fourth-image-container-whoweare{
+    height:100vh;
+    background-image: url("../img/whowearepage1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fourth-image-header-donate{
+
+    width:100%;
+    background: rgba(255,255,255,0.6);
+    padding:30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.fourth-image-header-donate h1{
+    font-size:3em;
+
+}
+
+
+div.fourth-image-container-donate div.row{
+    margin-left:22.5%;
+}
+
+
+
+.donation-column{
+    text-transform: uppercase;
+    margin:20px 20px;
+    height:300px;
+    background:rgba(255,255,255,0.6);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.donation-inner-container{
+    text-align: center;
+    margin-top:28%;
+    font-size:1.8em;
+}
+
+.pounds5-donation{
+    transition: background-color 0.3s ease;
+}
+
+.pounds5-donation:hover{
+    background-color:#A4267E
+}
+
+.pounds10-donation{
+    transition: background-color 0.3s ease;
+}
+
+.pounds10-donation:hover{
+    background-color:#3B95B8
+}
+.pounds20-donation{
+    transition: background-color 0.3s ease;
+}
+
+.pounds20-donation:hover{
+    background-color:#FDCA32
+}
+.one-off-donation{
+    transition: background-color 0.3s ease;
+}
+
+.one-off-donation:hover{
+    background-color:#87BA39
+}
+
+
+>>>>>>> 952a5f539b5b170b9fb40915f25d9c133b5c530c
 
 .footer{
     margin:0 auto;
     color:white;
     background-color: grey;
+<<<<<<< HEAD
     background-size: large;
+=======
+    background-size: cover;
+>>>>>>> 952a5f539b5b170b9fb40915f25d9c133b5c530c
     text-align: left;
     width: 100%;
     bottom:0;
@@ -365,7 +474,11 @@ dt a{
     text-align: right;
 }
 
+<<<<<<< HEAD
 .row {
+=======
+section.footer div.row {
+>>>>>>> 952a5f539b5b170b9fb40915f25d9c133b5c530c
     width: 80%;
     margin: 0 auto;
 }
