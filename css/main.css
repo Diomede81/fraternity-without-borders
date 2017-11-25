@@ -329,3 +329,48 @@ header {
     background-attachment: fixed;
 }
 
+/* footer */
+
+.footer{
+    margin:0 auto;
+    color:white;
+    background-color: grey;
+    background-size: large;
+    text-align: left;
+    width: 100%;
+    bottom:0;
+}
+.col-xs-offset-2{
+    text-align: center;
+    color: yellow;
+}
+dt a{
+    color: white;
+    text-align: center;
+}
+
+.verticalLine {
+    border-left: thick solid #ffffff;
+    padding:10px;
+}
+
+.verticalLine2 {
+    border-right: thick solid #ffffff;
+    padding:10px;
+}
+
+#copyright{
+    color: orange;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.row {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.verticalLine dt {
+    padding:5px;
+}
+
