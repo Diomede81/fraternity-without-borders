@@ -262,6 +262,10 @@ header {
 
     /*Donate PAge Selectors*/
 
+    div.donate-page-container div.row{
+        margin-right:0;
+    }
+
     .initial-image-header {
         position:absolute;
         font-size:4em;
@@ -356,9 +360,9 @@ header {
     background-attachment: fixed;
 }
 
-<<<<<<< HEAD
+
 /* footer */
-=======
+
 
 .fourth-image-container-whoweare{
     height:100vh;
@@ -370,7 +374,7 @@ header {
 
     width:100%;
     background: rgba(255,255,255,0.6);
-    padding:30px;
+    padding:10px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -434,17 +438,15 @@ div.fourth-image-container-donate div.row{
 }
 
 
->>>>>>> 952a5f539b5b170b9fb40915f25d9c133b5c530c
+
 
 .footer{
     margin:0 auto;
     color:white;
     background-color: grey;
-<<<<<<< HEAD
-    background-size: large;
-=======
+
     background-size: cover;
->>>>>>> 952a5f539b5b170b9fb40915f25d9c133b5c530c
+
     text-align: left;
     width: 100%;
     bottom:0;
@@ -474,11 +476,9 @@ dt a{
     text-align: right;
 }
 
-<<<<<<< HEAD
-.row {
-=======
+
 section.footer div.row {
->>>>>>> 952a5f539b5b170b9fb40915f25d9c133b5c530c
+
     width: 80%;
     margin: 0 auto;
 }
