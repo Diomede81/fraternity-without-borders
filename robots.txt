@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /index.html
+
+User-agent: *
+Allow: /templates/who_we_are.html
+
+User-agent: *
+Allow: /templates/what_do_we_do.html
+
+User-agent: *
+Allow: /templates/donate.html
+
+User-agent: *
+Allow: /templates/contact.html
+

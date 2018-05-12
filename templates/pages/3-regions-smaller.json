@@ -1,0 +1,25 @@
+[{
+	"x":15,
+	"y":135,
+	"width":140,
+	"height":15,
+	"class":"link",
+	"data":
+		{
+			"url": "https://www.gustavonenao.com/clipping"
+		}
+},
+{
+	"x":15,
+	"y":210,
+	"width":160,
+	"height":15,
+	"class":"link",
+	"data":
+		{
+			"url":"http://notjustyoga.co.uk/travel-in-style-2/"
+		}
+}
+
+
+]

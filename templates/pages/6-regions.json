@@ -1,0 +1,30 @@
+[
+	{
+		"x": 20,
+		"y": 67,
+		"width": 330,
+		"height": 10,
+		"class": "link",
+		"data": {
+			"url": "https://photographicexhibitionfwb.eventbrite.co.uk/"
+		}
+	},{
+		"x": 20,
+		"y": 134,
+		"width": 245,
+		"height": 10,
+		"class": "link",
+		"data": {
+			"url": "mailto:info@fraternitywithoutborders.co.uk"
+		}
+	},{
+		"x": 20,
+		"y": 205,
+		"width": 315,
+		"height": 10,
+		"class": "link",
+		"data": {
+			"url": "mailto:cristine.balarine@fraternitywithoutborders.co.uk"
+		}
+	}
+]

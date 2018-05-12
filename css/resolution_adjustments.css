@@ -1,0 +1,957 @@
+@media only screen and (max-width: 1024px) {
+
+
+
+    .fp-tableCell{
+        vertical-align: unset!important;
+    }
+
+    .special-top-margin{
+        margin-top: 140px;
+    }
+
+    .full-height{
+        height:auto;
+    }
+
+    body{
+        font-family:Helvetica-light, sans-serif;
+        background:black;
+    }
+
+    div#fullpage section.video-container-section  {
+    display:none;
+    }
+
+    #menulist, #social_media {
+        display: none;
+    }
+
+    .main-info-container h1{
+        display:none;
+    }
+    #menu_vertical {
+        top:20px;
+        display: block!important;
+        font-size:3em!important;
+        color:white!important;
+    }
+
+    #navigationbar {
+        width: 100%;
+        background:black;
+    }
+
+    #logo{
+        width:10%;
+        height:auto;
+        padding:0;
+
+    }
+
+    .col-md-12{
+        padding:0;
+
+    }
+
+    .main-info-container{
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        position:relative;
+        color:white;
+        padding:0;
+        width:100%;
+        left:0;
+        right:0;
+        bottom:0;
+        left:0!important;
+    }
+
+    .chevron-down-container{
+        bottom:0;
+        left:0;
+    }
+    .readmore-button{
+        margin:0;
+        padding:0;
+
+    }
+
+    h2{
+
+        font-size: 1.4em!important;
+    }
+
+    p{
+        font-size: 1em!important;
+
+    }
+
+    #quote{
+        padding-top: 5%;
+    }
+
+
+
+    .main-info-container h2{
+        padding:10px;
+    }
+
+    .main-info-container h3{
+        padding:10px;
+    }
+
+    .main-info-container ul li{
+        padding:0;
+    }
+
+    .main-info-container p{
+        font-size:0.6em!important;
+        padding:5px 10px 5px 0;
+    }
+
+    .donation-page-inner-container{
+        width:100%;
+        padding:0;
+        height:100%;
+        position:relative;
+
+    }
+
+    .donation-column{
+        height:auto;
+        padding:0;
+        background:rgba(255,255,255,0.6);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        width:50%;
+        margin:1px 0;
+    }
+
+    .pounds10-donation , .pounds5-donation{
+
+
+    }
+
+    .donation-page-inner-container .row{
+
+        margin-top:0;
+    }
+
+    .chevron-down-container-bottom{
+        background:rgba(0,0,0,0.3);
+        position:absolute;
+        bottom:0;
+        width:100%;
+        text-align: center;
+    }
+
+    .fourth-image-header-donate{
+        display:none
+
+    }
+
+    .fourth-image-header-donate-mobile{
+        font-family:Helvetica-light,sans-serif;
+        position:absolute;
+        width:100%;
+        background: rgba(255,255,255,0.6);
+        padding:10px;
+        text-align: center;
+        font-weight:bolder;
+        color:black;
+        bottom:2px;
+        left:0;
+        display:block;
+
+    }
+
+    .donate-event-row{
+        display:none;
+    }
+
+    .donation-image-container{
+        position:relative;
+    }
+
+    .portrait{
+        padding-top:170px;
+    }
+
+    #my-video{
+
+        width:100%;
+        height:auto;
+    }
+
+    div.slogan div.container h1{
+        font-size:0.8em;
+    }
+
+    div.slogan{
+        padding:20px;
+    }
+
+    div.storycontainer{
+
+        color:white;
+
+    }
+
+    .whatwedo-logo{
+
+        width:50%;
+        height:auto;
+        margin:0 25% 0 25%;
+        padding:30px;
+    }
+
+    .floating-img{
+        float:none!important;
+        margin:0!important;
+        margin:20px 0  0 50px!important;
+    }
+
+    .floating-img-contacts{
+        float:none!important;
+        width: 70%!important;
+        height:auto;
+    }
+
+    .water-well-text-container{
+        margin-top:10px!important;
+    }
+
+    .trustee-single-container{
+        padding: 30px!important;
+
+    }
+
+    .trustee-info-container{
+        padding:0;
+        margin-left:0;
+        width:90%;
+
+    }
+
+    body.contacs-body{
+        color:white;
+    }
+
+    .contact-details-container{
+        margin-top:150px;
+    }
+
+    .bank-details-container{
+        margin-top:20px;
+    }
+
+    .trustees-container{
+        display:block;
+        margin-bottom:50px;
+    }
+
+    .contact-details-container img{
+        padding:20px;
+        margin:0 25%;
+    }
+
+
+    .contact-details-container ul li a{
+        color:white;
+        text-decoration: underline;
+    }
+
+    .main-info-container h2{
+        padding:10px;
+
+    }
+    .main-info-container h3{
+       font-size:1em;
+
+    }
+
+    .main-info-container ul li{
+        padding:0;
+    }
+
+
+    .main-info-container-donate h1{
+        width:100%;
+        font-size:1em!important;
+        padding:10px;
+    }
+
+    .main-info-container-donate ul li{
+        padding:0;
+    }
+
+    .main-info-container-donate p{
+        padding:0;
+    }
+
+
+    .donate-button{
+        margin-top:0;
+        background:none;
+        padding:0;
+    }
+
+    .donation-inner-container{
+
+        padding:10px;
+
+        margin:0;
+    }
+
+
+    .donation-inner-container h3{
+        font-size:1.5em;
+    }
+
+    .donation-inner-container form table tbody tr select{
+
+        margin:0 50%;
+        padding:0;
+        width:200px;
+
+    }
+
+    .donation-inner-container ul li{
+
+        padding:10px 5px;
+
+    }
+
+    .donation-inner-container form input[type="image"]{
+
+        width:25%;
+        height:auto;
+
+    }
+
+    .whatdowedo-first-picture{
+        padding-top:200px;
+    }
+
+    .video-container-whoweare{
+        height:auto;
+        padding-top:170px;
+        margin-bottom:20px;
+    }
+
+    #video-sec{
+        height:auto;
+        padding-top:200px;
+        margin-bottom:0;
+        display:none
+    }
+
+
+
+
+
+    .whoweare-text-container{
+        padding-top:220px;
+    }
+
+    .mobile-image{
+        display:block;
+        margin-top:35%;
+        position:relative;
+    }
+
+    .overlay-container{
+        position:absolute;
+        background:rgba(255,255,255,0.5);
+        width:100%;
+        bottom:3px;
+        padding:10px;
+    }
+
+    .overlay-container a{
+
+        color:white;
+        text-decoration: none;
+
+    }
+
+
+
+    #mobile-video-section-container{
+        display:block;
+    }
+
+    .mobile-video-row{
+        margin-top:35%;
+        width:100vw;
+        height:auto;
+    }
+
+    .sound-icon-volumeup img{
+        width:50px;
+        height:auto;
+    }
+
+    .donate-button-container{
+        padding-bottom:20px;
+    }
+
+    .mobile-event-image-container{
+        position:relative;
+        padding:80px 70px 0 70px;
+    }
+
+    .mobile-donate-button{
+
+        position:absolute;
+        bottom:2.5%;
+        right:10%;
+        color:black;
+        z-index: 20;
+
+    }
+
+    .mobile-carousel{
+        display:block;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+    .full-height{
+       height:auto;
+    }
+    .special-top-margin{
+        margin-top: 80px;
+    }
+
+
+    h1{
+        font-size:0.8em!important;
+    }
+
+    p{
+        font-size:0.6em;
+        padding:0;
+    }
+
+    .donate-button{
+        margin:0;
+        background: none;
+        padding:20px;
+
+    }
+
+    ul{
+        padding:10px!important;
+    }
+
+    body{
+        background:black;
+        font-family:Helvetica-light, sans-serif;
+    }
+
+    #navigationbar {
+        width: 100%;
+        background:black;
+    }
+
+    .portrait{
+        padding-top:90px;
+    }
+
+
+
+    #menulist, #social_media {
+        display: none;
+    }
+
+    .main-info-container h1{
+        display:none;
+    }
+
+    #navigationbar h1{
+        display:none;
+    }
+
+   div.slogan div.container h1{
+       font-size:0.8em;
+   }
+
+   div.slogan{
+       padding:20px;
+   }
+
+   div.storycontainer{
+
+       color:white;
+
+   }
+
+    #menu_vertical {
+        display: block!important;
+        top:20px;
+        right:50px;
+        font-size:2em!important;
+        color:white!important;
+
+    }
+
+    #logo{
+        width:20%;
+        height:auto;
+        padding:0;
+        margin-left:10px;
+    }
+
+    .main-info-container{
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        position:relative;
+        color:white;
+        padding:0;
+        width:100%;
+        left:0;
+        right:0;
+        bottom:0;
+        left:0!important;
+    }
+
+    .col-md-12{
+        padding:0;
+
+    }
+
+    .readmore-button{
+        margin:0;
+        padding:0;
+
+    }
+
+
+    h2{
+
+        font-size: 1em!important;
+        font-weight:bold!important;
+    }
+
+    p{
+        font-size: 0.8em!important;
+
+    }
+
+    
+
+    .donation-page-inner-container{
+        width:100%;
+        padding:0;
+        height:100%;
+
+    }
+
+    .donation-column{
+        padding:0;
+        height:auto;
+        background:rgba(255,255,255,0.6);
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 10px;
+        border-radius: 30px;
+        width:100%;
+        margin:0;
+
+    }
+
+    .mobile-event-image-container{
+        position:relative;
+        padding:80px 0 0 0;
+    }
+    .mobile-donate-button{
+
+        position:absolute;
+        bottom:10px;
+        right:10%;
+        color:black;
+        z-index: 20;
+
+    }
+
+
+    .donate-event-row{
+        display:none;
+    }
+
+   .pounds10-donation , .pounds5-donation{
+    display:none;
+
+   }
+
+   .donation-page-inner-container .row{
+       position:relative;
+       margin-top:0;
+   }
+
+    .chevron-down-container-bottom{
+        background:rgba(0,0,0,0.3);
+        position:absolute;
+        bottom:0;
+        width:100%;
+        text-align: center;
+        font-size:0.6em;
+        left:0;
+    }
+
+    .fourth-image-header-donate{
+        font-family:Helvetica-light,sans-serif;
+        position:absolute;
+        width:100%;
+        background: rgba(255,255,255,0.6);
+        padding:10px;
+        text-align: center;
+        font-weight:bolder;
+        color:black;
+        left:0;
+        bottom:100%;
+
+    }
+
+    .fourth-image-header-donate h1{
+        font-size:1.2em!important;
+    }
+
+    .whatdowedo-first-picture{
+        padding-top:100px;
+    }
+
+    .whatwedo-logo{
+
+        width:50%;
+        height:auto;
+        margin:0 25% 0 25%;
+        padding:30px;
+    }
+
+    .floating-img{
+        float:none!important;
+        margin:0!important;
+        margin:20px 0  0 50px!important;
+    }
+
+    .floating-img-contacts{
+        float:none!important;
+        width: 100%!important;
+        height:auto;
+    }
+
+    .water-well-text-container{
+        margin-top:10px!important;
+    }
+
+    .trustee-single-container{
+        padding: 20px!important;
+
+    }
+
+    .trustee-info-container{
+        padding:0;
+        margin-left:0;
+        width:70%;
+
+    }
+
+    body.contacs-body{
+        color:white;
+    }
+
+    .trustees-container{
+        display:block;
+        margin-bottom:50px;
+    }
+
+   .contact-details-container{
+       margin-top:100px;
+   }
+
+    .bank-details-container{
+        margin-top:20px;
+    }
+
+    .contact-details-container img{
+        padding:20px;
+        margin:0 25%;
+    }
+
+    .contact-details-container ul li a{
+        color:white;
+        text-decoration: underline;
+    }
+
+    .contact-details-container{
+        font-size:0.7em;
+    }
+
+    .footer{
+        display:none;
+    }
+
+    .trustee-info-container p a{
+        font-size:0.6em;
+    }
+
+    .main-info-container h2{
+        padding:10px;
+    }
+
+    .main-info-container h3{
+        padding:10px;
+    }
+
+    .main-info-container ul li{
+        padding:0;
+    }
+
+    .main-info-container p{
+        font-size:0.6em!important;
+        padding:2px 0;
+    }
+
+    .main-info-container-donate{
+        padding:0;
+    }
+
+    .chevron-down-container{
+        background:rgba(0,0,0,0.3);
+        position:absolute;
+        bottom:0;
+        width:100%;
+        text-align: center;
+        padding:0;
+        font-size:0.6em;
+    }
+
+    .fp-tableCell{
+        vertical-align: unset!important;
+    }
+
+    .donation-inner-container{
+
+        padding:10px;
+
+        margin:0;
+    }
+
+    .donation-inner-container h3{
+        font-size:0.9em;
+    }
+
+    .donation-inner-container form table tbody tr select{
+
+        margin:0 40%;
+        padding:0;
+        width:200px;
+
+    }
+
+    .donation-inner-container ul li{
+
+        padding:10px 5px;
+
+    }
+
+    .donation-inner-container form input[type="image"]{
+
+        width:15%;
+        height:auto;
+
+    }
+
+    .video-container-whoweare{
+        height:auto;
+        padding-top:120px;
+        margin-bottom:20px;
+    }
+
+    #video-sec{
+        height:auto;
+        padding-top:110px;
+        margin-bottom:0;
+    }
+
+    .whoweare-text-container{
+        padding-top:100px;
+    }
+
+    .bank-details{
+        display:none;
+    }
+
+    .mobile-image{
+        display:block;
+        margin-top:50%;
+        position:relative;
+    }
+    .overlay-container{
+        position:absolute;
+        background:rgba(255,255,255,0.5);
+        width:100%;
+        bottom:3px;
+        padding:10px;
+    }
+
+    .overlay-container a{
+
+        color:white;
+        text-decoration: none;
+
+    }
+
+
+    #mobile-video-section-container{
+        display:block;
+        width:100vw;
+        height:auto;
+    }
+
+    div#fullpage section.video-container-section  {
+        display:none;
+    }
+
+    .mobile-video-row{
+        width:100vw;
+        height:auto;
+        margin-top:50%;
+    }
+
+
+
+    .sound-icon-volumeup img{
+        width:50px;
+        height:auto;
+    }
+
+    .trustee-info-container > a{
+        font-size:0.5em;
+    }
+
+    .donate-button-container{
+        padding-bottom:20px;
+    }
+
+    . .mobile-carousel{
+        display:block;
+    }
+
+    .event-image{
+
+        display:block;
+
+    }
+
+    .flipbook{
+        display:none;
+    }
+
+
+    .event-donation-container .donate-button-container{
+        padding:0;
+
+    }
+
+    .event-donation-container{
+        top:13%;
+        z-index: 0;
+
+    }
+
+    .bottom{
+        bottom:0; position:relative; top:0;
+    }
+
+    .carousel-container{
+        padding-top:35%;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1900px){
+
+    body{
+        font-size:80%;
+    }
+
+    .custom-event-info-container{
+        font-size:85%;
+    }
+
+    #social_media{
+        top:10px;
+    }
+
+    .donation-inner-container form table tbody tr select{
+        margin:0 25%;
+    }
+
+    .donation-inner-container ul li{
+        font-size:0.9em;
+        padding:5px 5px;
+    }
+
+    .larger-box{
+       width:35%;
+        left:60%;
+    }
+
+    .donation-inner-container form input[type="image"]{
+     width:25%;
+        cursor:pointer;
+
+    }
+
+}
+
+@media only screen and (min-width:1620px){
+
+    .donation-inner-container form table tbody tr select{
+
+        margin:0 50%;
+        padding:5px;
+        width:15em;
+
+    }
+
+}
+
+@media only screen and (max-width:350px){
+
+    .donate-remove{
+        display:none;
+    }
+
+    .mobile-top-margin{
+        padding-top:80px;
+    }
+
+    .donation-inner-container form input[type="image"]{
+
+        width:30%;
+
+    }
+
+}
