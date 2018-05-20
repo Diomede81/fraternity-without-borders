@@ -930,9 +930,19 @@
 
     }
 
+    .artworks-main-container h1,.artworks-main-container h2{
+        font-size:1.6em;
+        font-weight:bold;
+    }
+
 }
 
-@media only screen and (min-width:1620px){
+@media only screen and (min-width:1500px){
+
+    .artworks-main-container h1,.artworks-main-container h2 {
+        font-size:2em;
+    }
+
 
     .donation-inner-container form table tbody tr select{
 
