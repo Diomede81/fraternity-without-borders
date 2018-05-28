@@ -1066,7 +1066,7 @@ ul li a{
 
 
 .generic-item-text-info-container{
-    padding:10px 80px 0 22%;
+    padding:10px 80px 0 23%;
 }
 
 .nav-item{
@@ -1127,6 +1127,73 @@ ul li a{
 
     width:100%;
     height:auto;
+
+}
+
+.graffiti-paypal-button{
+
+    width:12.5%;
+    float:left;
+    margin-right:20px;
+
+}
+
+.artworks-items-buttons-container-graffiti{
+    width:100%;
+}
+
+.item-description-modal-footer p{
+    margin-top:20px;
+    padding:70% 100px 50px 100px;
+}
+
+.modal-title{
+    font-size:2em;
+    font-weight:bold;
+}
+
+.picture-overlay-container{
+
+    width:20%;
+    height:auto;
+    overflow: hidden;
+    position:absolute;
+
+}
+
+.image-overlay-information:hover {
+
+    opacity:1;
+    cursor: pointer;
+
+}
+
+.image-overlay-information{
+    position:absolute;
+    background:rgba(0,0,0,0.6);
+    width:90%;
+    height:100%;
+    padding:10px;
+    opacity:0;
+    transition:opacity 0.5s ease;
+}
+
+.image-overlay-information a{
+
+    position:absolute;
+    text-align:center;
+    text-decoration: none;
+    left:0;
+    width:100%;
+    padding-top:22.5%;
+    color:white;
+    font-weight:bold;
+    font-size:2em;
+}
+
+.modal-dialog{
+
+    width:50%;
 
 }
 

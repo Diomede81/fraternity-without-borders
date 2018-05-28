@@ -37,7 +37,7 @@
         <div id="menulist">
             <ul>
                 <li><a href="../contact.html">CONTACT<hr></a></li>
-                <li><a href="http://www.fraternitywithoutbordersauction.co.uk/" target="_blank">artworks sale<hr></a></li>
+                <li><a href="#">artworks sale<hr></a></li>
                 <li><a href="../events.html">RECENT NEWS<hr></a></li>
                 <li><a href="../donate.html">DONATE<hr></a></li>
                 <li><a href="../our_work.html">OUR WORK<hr></a></li>
@@ -70,7 +70,7 @@
                 <a href="../our_work.html">OUR WORK</a>
                 <a href="../donate.html">DONATE</a>
                 <a href="../events.html">RECENT NEWS</a>
-                <a href="http://www.fraternitywithoutbordersauction.co.uk/" target="_blank">artworks sale</a>
+                <a href="#">artworks sale</a>
                 <a href="../contact.html">CONTACT</a>
                 <svg width="120" height="25" id="social_media_2">
                     <a href="https://www.facebook.com/fraternitywithoutborders/"  target="_blank">
@@ -116,6 +116,54 @@
     </h2>
     </div>
 
+    <!--Modal page for graffiti size and description-->
+
+
+    <div class="modal fade" id="graffiti-description-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title pull-left" id="graffitiModalLabel" >Cultural Effervescence</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="font-size:2em; font-weight:bold;">&times;</span>
+                    </button>
+                </div>
+                <div class="item-description-modal-body">
+                    <img src="../../img/customevents/graffitti/cultural_effervescence.jpg" class="pull-left" width="100%" height="auto">
+                </div>
+                <div class="item-description-modal-footer">
+                    <p> <b>1.5x1.5 graffiti on canvas performed live at Not Just Yoga catwalk show</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal window ends here-->
+    <!--Modal page for graffiti size and description-->
+
+    <div class="modal fade" id="picture-description-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title pull-left" id="picturesModalLabel" ></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="font-size:2em; font-weight:bold;">&times;</span>
+                    </button>
+                </div>
+                <div class="item-description-modal-body">
+                    <img src="" alt="Picture for sale" class="pull-left" width="100%" height="auto">
+                </div>
+                <div class="item-description-modal-footer">
+                    <p> <b>Large format specialist print 1.2x0.80m in Baryta Photographique 310gsm paper frames in
+                        bespoke large format specialist birch timber frames painted in black 1.2x0.80m with TruVue water white glass.</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal window ends here-->
+
+
 
 
     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -127,26 +175,32 @@
         </li>
 
     </ul>
+
     <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane active" id="pills-graffiti" role="tabpanel" aria-labelledby="pills-home-tab">
             <div class="row artworks-sale-main-row">
-
                 <div class="col-md-12 generic-item-column">
                     <div class="generic-item-column-inner clearfix">
-                        <img src="../../img/customevents/graffitti/cultural_effervescence.jpg" class="pull-left" width="20%" height="auto">
+                        <div class="picture-overlay-container">
+                            <img src="../../img/customevents/graffitti/cultural_effervescence.jpg" class="pull-left" width="90%" height="auto">
+                            <div class="image-overlay-information">
+                                <a data-toggle="modal" data-target="#graffiti-description-modal">More Info</a>
+                            </div>
+                        </div>
+
                         <div class="generic-item-text-info-container">
                         <h2>Cultural Effervescence</h2>
                         <p>A pop art portrait of a famous woman as a statement against rapid changes of cultural icons. her image is preserved as an artefact that is identified by members of a culture as representative of that culture.
-                            Synthetic colours of urban pop culture and influences of Tropicalism and glamorous advertising are fused into a pop art piece to immortalise the life of a transient symbol of a fast-paced generation.
-                            This graffiti was performed live at a fashion show event for Not Just Yoga in London:
+                            Synthetic colours of urban pop culture and influences of Tropicalism and glamorous advertising are fused into a pop art piece to immortalise the life of a transient symbol of a fast-paced generation.<br>
+                            <br>
                         </p>
                             <div class="price-buy-button-container " style="margin-top:10px;">
-                        <h2 style="margin-top:10px; margin-right:20px;" class="pull-left">Price: £2500</h2>
+                        <h2 style="margin-top:10px; margin-right:20px;" class="pull-left" >Price: £5000</h2>
                         <div class="artworks-items-buttons-container-graffiti" style="margin-top:20px;">
-                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" class="graffiti-paypal-button">
                                 <input type="hidden" name="cmd" value="_s-xclick">
                                 <input type="hidden" name="hosted_button_id" value="NWM4LPXBRCQ8N">
-                                <input type="image" src="../../img/Paypal_Buttons/paypal_buy.jpg" border="0" width="13%" height="auto" name="submit" alt="PayPal – The safer, easier way to pay online!">
+                                <input type="image" src="../../img/Paypal_Buttons/paypal_buy.jpg" border="0" width="100%" height="auto" name="submit" alt="PayPal – The safer, easier way to pay online!">
                                 <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
                             </form>
                         </div>
@@ -159,6 +213,7 @@
         <div class="tab-pane fade" id="pills-photos" role="tabpanel" aria-labelledby="pills-profile-tab">
             <div class="artworks-introduction-container">
                 <div class="artwork-introduction-image-container">
+
                     <img src="../../img/customevents/exibition-image.jpg" width="100%" height="auto">
                 </div>
                 <h2 class="artworks_header2">Please see below photographs on sale from our exhibition ‘Fraternity Without Borders: A Social Documentary Exhibition’
@@ -173,7 +228,12 @@
             <div class="row artworks-sale-main-row">
                 <div class="col-md-12 generic-item-column">
                     <div class="generic-item-column-inner clearfix">
-                        <img src="../../img/customevents/graffitti/photo_1.jpg" class="pull-left" width="20%" height="auto">
+                        <div class="picture-overlay-container">
+                            <img src="../../img/customevents/graffitti/photo_1.jpg" class="pull-left" width="90%" height="auto">
+                            <div class="image-overlay-information">
+                                <a data-toggle="modal" data-target="#picture-description-modal">More Info</a>
+                            </div>
+                        </div>
                         <div class="generic-item-text-info-container">
                         <h2>The Family</h2>
                         <p>The show exhibits photos by 3 Brazilian photographers (Alisson Demetrio, Felipe Torres and Fernanda Calixto)
@@ -196,7 +256,12 @@
             <div class="row artworks-sale-main-row">
                 <div class="col-md-12 generic-item-column">
                     <div class="generic-item-column-inner clearfix">
-                        <img src="../../img/customevents/graffitti/photo_2.jpg" class="pull-left" width="20%" height="auto">
+                        <div class="picture-overlay-container">
+                            <img src="../../img/customevents/graffitti/photo_2.jpg" class="pull-left" width="90%" height="auto">
+                            <div class="image-overlay-information">
+                                <a data-toggle="modal" data-target="#picture-description-modal">More Info</a>
+                            </div>
+                        </div>
                         <div class="generic-item-text-info-container">
                         <h2>A window into a poor classroom</h2>
                         <p>The show exhibits photos by 3 Brazilian photographers (Alisson Demetrio, Felipe Torres and Fernanda Calixto)
@@ -219,7 +284,13 @@
             <div class="row artworks-sale-main-row">
                 <div class="col-md-12 generic-item-column">
                     <div class="generic-item-column-inner clearfix">
-                        <img src="../../img/customevents/graffitti/photo_3.jpg" class="pull-left" width="20%" height="auto">
+                        <div class="picture-overlay-container">
+                            <img src="../../img/customevents/graffitti/photo_3.jpg" class="pull-left" width="90%" height="auto">
+                            <div class="image-overlay-information">
+                                <a data-toggle="modal" data-target="#picture-description-modal">More Info</a>
+                            </div>
+                        </div>
+
                         <div class="generic-item-text-info-container">
                         <h2>One heart feeling the other</h2>
                         <p>The show exhibits photos by 3 Brazilian photographers (Alisson Demetrio, Felipe Torres and Fernanda Calixto)
@@ -242,7 +313,13 @@
             <div class="row artworks-sale-main-row">
                 <div class="col-md-12 generic-item-column">
                     <div class="generic-item-column-inner clearfix">
-                        <img src="../../img/customevents/graffitti/photo_4.jpg" class="pull-left" width="20%" height="auto">
+                        <div class="picture-overlay-container">
+                            <img src="../../img/customevents/graffitti/photo_4.jpg" class="pull-left" width="90%" height="auto">
+                            <div class="image-overlay-information">
+                                <a data-toggle="modal" data-target="#picture-description-modal">More Info</a>
+                            </div>
+                        </div>
+
                         <div class="generic-item-text-info-container">
                         <h2>I can see you</h2>
                         <p>The show exhibits photos by 3 Brazilian photographers (Alisson Demetrio, Felipe Torres and Fernanda Calixto)
@@ -265,7 +342,12 @@
             <div class="row artworks-sale-main-row">
                 <div class="col-md-12 generic-item-column">
                     <div class="generic-item-column-inner clearfix">
-                        <img src="../../img/customevents/graffitti/photo_5.jpg" class="pull-left" width="20%" height="auto">
+                        <div class="picture-overlay-container">
+                            <img src="../../img/customevents/graffitti/photo_5.jpg" class="pull-left" width="90%" height="auto">
+                            <div class="image-overlay-information">
+                                <a data-toggle="modal" data-target="#picture-description-modal">More Info</a>
+                            </div>
+                        </div>
                         <div class="generic-item-text-info-container">
                         <h2>Fraternity for all</h2>
                         <p>The show exhibits photos by 3 Brazilian photographers (Alisson Demetrio, Felipe Torres and Fernanda Calixto)
@@ -288,7 +370,12 @@
             <div class="row artworks-sale-main-row">
                 <div class="col-md-12 generic-item-column">
                     <div class="generic-item-column-inner clearfix">
-                        <img src="../../img/customevents/graffitti/photo_6.jpg" class="pull-left" width="20%" height="auto">
+                        <div class="picture-overlay-container">
+                            <img src="../../img/customevents/graffitti/photo_6.jpg" class="pull-left" width="90%" height="auto">
+                            <div class="image-overlay-information">
+                                <a data-toggle="modal" data-target="#picture-description-modal">More Info</a>
+                            </div>
+                        </div>
                         <div class="generic-item-text-info-container">
                         <h2>The anonymous visitor</h2>
                         <p>The show exhibits photos by 3 Brazilian photographers (Alisson Demetrio, Felipe Torres and Fernanda Calixto)
@@ -311,7 +398,13 @@
             <div class="row artworks-sale-main-row">
             <div class="col-md-12 generic-item-column">
                 <div class="generic-item-column-inner clearfix">
-                    <img src="../../img/customevents/graffitti/photo_7.jpg" class="pull-left" width="20%" height="auto">
+                    <div class="picture-overlay-container">
+                        <img src="../../img/customevents/graffitti/photo_7.jpg" class="pull-left" width="90%" height="auto">
+                        <div class="image-overlay-information">
+                            <a data-toggle="modal" data-target="#picture-description-modal">More Info</a>
+                        </div>
+                    </div>
+
                     <div class="generic-item-text-info-container">
                     <h2>A full dish to fight famine</h2>
                     <p>The show exhibits photos by 3 Brazilian photographers (Alisson Demetrio, Felipe Torres and Fernanda Calixto)
@@ -334,7 +427,13 @@
             <div class="row artworks-sale-main-row">
                 <div class="col-md-12 generic-item-column">
                     <div class="generic-item-column-inner clearfix">
-                        <img src="../../img/customevents/graffitti/photo_8.jpg" class="pull-left" width="20%" height="auto">
+                        <div class="picture-overlay-container">
+                            <img src="../../img/customevents/graffitti/photo_8.jpg" class="pull-left" width="90%" height="auto">
+                            <div class="image-overlay-information">
+                                <a data-toggle="modal" data-target="#picture-description-modal">More Info</a>
+                            </div>
+                        </div>
+
                         <div class="generic-item-text-info-container">
                         <h2>Mother and son</h2>
                         <p>The show exhibits photos by 3 Brazilian photographers (Alisson Demetrio, Felipe Torres and Fernanda Calixto)
@@ -357,7 +456,13 @@
             <div class="row artworks-sale-main-row">
                 <div class="col-md-12 generic-item-column">
                     <div class="generic-item-column-inner clearfix">
-                        <img src="../../img/customevents/graffitti/photo_9.jpg" class="pull-left" width="20%" height="auto">
+                        <div class="picture-overlay-container">
+                            <img src="../../img/customevents/graffitti/photo_9.jpg" class="pull-left" width="90%" height="auto">
+                            <div class="image-overlay-information">
+                                <a data-toggle="modal" data-target="#picture-description-modal">More Info</a>
+                            </div>
+                        </div>
+
                         <div class="generic-item-text-info-container">
                         <h2>Water and joy</h2>
                         <p>The show exhibits photos by 3 Brazilian photographers (Alisson Demetrio, Felipe Torres and Fernanda Calixto)
@@ -380,7 +485,13 @@
             <div class="row artworks-sale-main-row">
                 <div class="col-md-12 generic-item-column">
                     <div class="generic-item-column-inner clearfix">
-                        <img src="../../img/customevents/graffitti/photo_10.jpg" class="pull-left" width="20%" height="auto">
+                        <div class="picture-overlay-container">
+                            <img src="../../img/customevents/graffitti/photo_10.jpg" class="pull-left" width="90%" height="auto">
+                            <div class="image-overlay-information">
+                                <a data-toggle="modal" data-target="#picture-description-modal">More Info</a>
+                            </div>
+                        </div>
+
                         <div class="generic-item-text-info-container">
                         <h2>Flowers of Africa</h2>
                         <p>The show exhibits photos by 3 Brazilian photographers (Alisson Demetrio, Felipe Torres and Fernanda Calixto)
@@ -403,7 +514,13 @@
             <div class="row artworks-sale-main-row">
                 <div class="col-md-12 generic-item-column">
                     <div class="generic-item-column-inner clearfix">
-                        <img src="../../img/customevents/graffitti/photo_11.jpg" class="pull-left" width="20%" height="auto">
+                        <div class="picture-overlay-container">
+                            <img src="../../img/customevents/graffitti/photo_11.jpg" class="pull-left" width="90%" height="auto">
+                            <div class="image-overlay-information">
+                                <a data-toggle="modal" data-target="#picture-description-modal">More Info</a>
+                            </div>
+                        </div>
+
                         <div class="generic-item-text-info-container">
                         <h2>Dance in Chimbembe</h2>
                         <p>The show exhibits photos by 3 Brazilian photographers (Alisson Demetrio, Felipe Torres and Fernanda Calixto)
@@ -426,7 +543,13 @@
             <div class="row artworks-sale-main-row">
                 <div class="col-md-12 generic-item-column">
                     <div class="generic-item-column-inner clearfix">
-                        <img src="../../img/customevents/graffitti/photo_12.jpg" class="pull-left" width="20%" height="auto">
+                        <div class="picture-overlay-container">
+                            <img src="../../img/customevents/graffitti/photo_12.jpg" class="pull-left" width="90%" height="auto">
+                            <div class="image-overlay-information">
+                                <a data-toggle="modal" data-target="#picture-description-modal">More Info</a>
+                            </div>
+                        </div>
+
                         <div class="generic-item-text-info-container">
                         <h2>Gratitude</h2>
                         <p>The show exhibits photos by 3 Brazilian photographers (Alisson Demetrio, Felipe Torres and Fernanda Calixto)
@@ -449,7 +572,13 @@
             <div class="row artworks-sale-main-row">
                 <div class="col-md-12 generic-item-column">
                     <div class="generic-item-column-inner clearfix">
-                        <img src="../../img/customevents/graffitti/photo_13.jpg" class="pull-left" width="20%" height="auto">
+                        <div class="picture-overlay-container">
+                            <img src="../../img/customevents/graffitti/photo_13.jpg" class="pull-left" width="90%" height="auto">
+                            <div class="image-overlay-information">
+                                <a data-toggle="modal" data-target="#picture-description-modal">More Info</a>
+                            </div>
+                        </div>
+
                         <div class="generic-item-text-info-container">
                         <h2>Mission of love</h2>
                         <p>The show exhibits photos by 3 Brazilian photographers (Alisson Demetrio, Felipe Torres and Fernanda Calixto)
@@ -472,7 +601,13 @@
             <div class="row artworks-sale-main-row">
                 <div class="col-md-12 generic-item-column">
                     <div class="generic-item-column-inner clearfix">
-                        <img src="../../img/customevents/graffitti/photo_14.jpg" class="pull-left" width="20%" height="auto">
+                        <div class="picture-overlay-container">
+                            <img src="../../img/customevents/graffitti/photo_14.jpg" class="pull-left" width="90%" height="auto">
+                            <div class="image-overlay-information">
+                                <a data-toggle="modal" data-target="#picture-description-modal">More Info</a>
+                            </div>
+                        </div>
+
                         <div class="generic-item-text-info-container">
                         <h2>Respect</h2>
                         <p>The show exhibits photos by 3 Brazilian photographers (Alisson Demetrio, Felipe Torres and Fernanda Calixto)
@@ -495,7 +630,13 @@
             <div class="row artworks-sale-main-row">
                 <div class="col-md-12 generic-item-column">
                     <div class="generic-item-column-inner clearfix">
-                        <img src="../../img/customevents/graffitti/photo_15.jpg" class="pull-left" width="20%" height="auto">
+                        <div class="picture-overlay-container">
+                            <img src="../../img/customevents/graffitti/photo_15.jpg" class="pull-left" width="90%" height="auto">
+                            <div class="image-overlay-information">
+                                <a data-toggle="modal" data-target="#picture-description-modal">More Info</a>
+                            </div>
+                        </div>
+
                         <div class="generic-item-text-info-container">
                         <h2>A Well of Life</h2>
                         <p>The show exhibits photos by 3 Brazilian photographers (Alisson Demetrio, Felipe Torres and Fernanda Calixto)
@@ -518,7 +659,12 @@
             <div class="row artworks-sale-main-row">
                 <div class="col-md-12 generic-item-column">
                     <div class="generic-item-column-inner clearfix">
-                        <img src="../../img/customevents/graffitti/photo_16.jpg" class="pull-left" width="20%" height="auto">
+                        <div class="picture-overlay-container">
+                            <img src="../../img/customevents/graffitti/photo_16.jpg" class="pull-left" width="90%" height="auto">
+                            <div class="image-overlay-information">
+                                <a data-toggle="modal" data-target="#picture-description-modal">More Info</a>
+                            </div>
+                        </div>
                         <div class="generic-item-text-info-container">
                         <h2>Dorita's faith</h2>
                         <p>The show exhibits photos by 3 Brazilian photographers (Alisson Demetrio, Felipe Torres and Fernanda Calixto)
@@ -541,7 +687,14 @@
             <div class="row artworks-sale-main-row">
                 <div class="col-md-12 generic-item-column">
                     <div class="generic-item-column-inner clearfix">
-                        <img src="../../img/customevents/graffitti/photo_17.jpg" class="pull-left" width="20%" height="auto">
+
+                        <div class="picture-overlay-container">
+                            <img src="../../img/customevents/graffitti/photo_17.jpg" class="pull-left" width="90%" height="auto">
+                            <div class="image-overlay-information">
+                                <a data-toggle="modal" data-target="#picture-description-modal">More Info</a>
+                            </div>
+                        </div>
+
                         <div class="generic-item-text-info-container">
                         <h2>A door of hope</h2>
                         <p>The show exhibits photos by 3 Brazilian photographers (Alisson Demetrio, Felipe Torres and Fernanda Calixto)
@@ -564,7 +717,13 @@
             <div class="row artworks-sale-main-row">
                 <div class="col-md-12 generic-item-column">
                     <div class="generic-item-column-inner clearfix">
-                        <img src="../../img/customevents/graffitti/photo_18.jpg" class="pull-left" width="20%" height="auto">
+                        <div class="picture-overlay-container">
+                            <img src="../../img/customevents/graffitti/photo_18.jpg" class="pull-left" width="90%" height="auto">
+                            <div class="image-overlay-information">
+                                <a data-toggle="modal" data-target="#picture-description-modal">More Info</a>
+                            </div>
+                        </div>
+
                         <div class="generic-item-text-info-container">
                         <h2>The observer</h2>
                         <p>The show exhibits photos by 3 Brazilian photographers (Alisson Demetrio, Felipe Torres and Fernanda Calixto)
@@ -587,8 +746,12 @@
             <div class="row artworks-sale-main-row">
                 <div class="col-md-12 generic-item-column">
                     <div class="generic-item-column-inner clearfix">
-                        <img src="../../img/customevents/graffitti/photo_19.jpg" class="pull-left" width="20%" height="auto">
-
+                        <div class="picture-overlay-container">
+                            <img src="../../img/customevents/graffitti/photo_19.jpg" class="pull-left" width="90%" height="auto">
+                            <div class="image-overlay-information">
+                                <a data-toggle="modal" data-target="#picture-description-modal">More Info</a>
+                            </div>
+                        </div>
                         <div class="generic-item-text-info-container">
                         <h2>Contrast</h2>
                         <p>The show exhibits photos by 3 Brazilian photographers (Alisson Demetrio, Felipe Torres and Fernanda Calixto)
@@ -613,12 +776,13 @@
 
 </div>
 <script src="https://cdn.plyr.io/3.3.7/plyr.js"></script>
-<script>const player = new Plyr('#player');</script>
+<script> const player = new Plyr('#player');</script>
 
 </body>
 <script src="../../bower_components/jquery/dist/jquery.js"></script>
 <script src="../../bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <script src="../../js/main.js"></script>
 <script src="../../js/fullPage.js-master/dist/jquery.fullpage.js"></script>
+<script src="../../js/artworks.js"></script>
 
 </html>
