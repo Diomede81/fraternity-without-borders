@@ -60,7 +60,7 @@
         border-radius: 0;
         position:relative;
         color:white;
-        padding:0;
+        padding:15px;
         width:100%;
         left:0;
         right:0;
@@ -368,7 +368,7 @@
         background:rgba(255,255,255,0.5);
         width:100%;
         bottom:3px;
-        padding:10px;
+        padding:10px 30px;
     }
 
     .overlay-container a{
@@ -418,6 +418,92 @@
         display:block;
     }
 
+    .artworks-main-container{
+        color:white;
+
+    }
+
+    .artworks-main-container .video-container{
+        width:100%;
+        height:auto;
+    }
+
+    .artworks_header2{
+        padding:25px 10px;
+    }
+
+    .introduction-video-container h1{
+        font-size:1.3em!important;
+    }
+
+    div.artworks-main-container ul.nav li.nav-item{
+        width:47%;
+    }
+    div.artworks-main-container ul.nav li a{
+        color:white;
+    }
+
+    .picture-overlay-container{
+
+        width:100%;
+        position:relative;
+
+    }
+
+    .picture-overlay-container img{
+        width:100%;
+        height:auto;
+    }
+
+    .generic-item-text-info-container{
+
+        padding: 20px 10px 0 10px;
+    }
+
+    .price-buy-button-container h2{
+        float:none!important;
+        text-align: center;
+    }
+
+    .graffiti-paypal-button{
+        width:60%;
+        margin: 0 auto;
+        float:none;
+    }
+
+    .price-buy-button-container{
+        margin-top:0px!important;
+    }
+
+    .artworks-items-buttons-container-graffiti{
+        margin-top:0;
+    }
+
+    .artwork-introduction-image-container{
+
+        width:100%;
+
+    }
+
+    .artworks-introduction-container h2 a{
+        font-size:0.6em;
+
+    }
+
+    .picture-overlay-container img{
+        width:100%;
+        height:auto;
+    }
+
+    .image-overlay-information{
+        width:100%;
+    }
+
+    .artworks-items-buttons-container form{
+        margin-top:10px;
+        width:50%;
+    }
+
 
 
 }
@@ -435,11 +521,7 @@
 
 @media only screen and (max-width: 500px) {
 
-    section{
 
-        padding:0 15px;
-
-    }
 
     .full-height{
        height:auto;
@@ -533,7 +615,7 @@
         border-radius: 0;
         position:relative;
         color:white;
-        padding:0;
+        padding:15px;
         width:100%;
         left:0;
         right:0;
@@ -818,7 +900,7 @@
         background:rgba(255,255,255,0.5);
         width:100%;
         bottom:3px;
-        padding:10px;
+        padding:10px 30px;
     }
 
     .overlay-container a{
@@ -894,6 +976,91 @@
         padding-top:35%;
     }
 
+    .artworks-main-container{
+        color:white;
+
+    }
+
+    .artworks-main-container .video-container{
+        width:100%;
+        height:auto;
+    }
+
+    .artworks_header2{
+        padding:25px 10px;
+    }
+
+    .introduction-video-container h1{
+        font-size:1.3em!important;
+    }
+
+    div.artworks-main-container ul.nav li.nav-item{
+        width:47%;
+    }
+    div.artworks-main-container ul.nav li a{
+        color:white;
+    }
+
+    .picture-overlay-container{
+
+        width:100%;
+        position:relative;
+
+    }
+
+    .picture-overlay-container img{
+        width:100%;
+        height:auto;
+    }
+
+    .generic-item-text-info-container{
+
+        padding: 20px 10px 0 10px;
+    }
+
+    .price-buy-button-container h2{
+        float:none!important;
+        text-align: center;
+    }
+
+    .graffiti-paypal-button{
+        width:60%;
+        margin: 0 auto;
+        float:none;
+    }
+
+    .price-buy-button-container{
+        margin-top:0px!important;
+    }
+
+    .artworks-items-buttons-container-graffiti{
+        margin-top:0;
+    }
+
+    .artwork-introduction-image-container{
+
+        width:100%;
+
+    }
+
+    .artworks-introduction-container h2 a{
+        font-size:0.6em;
+
+    }
+
+    .picture-overlay-container img{
+        width:100%;
+        height:auto;
+    }
+
+    .image-overlay-information{
+     width:100%;
+    }
+
+    .artworks-items-buttons-container form{
+        margin-top:10px;
+        width:50%;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1900px){
@@ -935,6 +1102,8 @@
         font-weight:bold;
     }
 
+
+
 }
 
 @media only screen and (min-width:1500px){
@@ -950,6 +1119,10 @@
         padding:5px;
         width:15em;
 
+    }
+
+    .picture-overlay-container{
+        width:18%;
     }
 
 }

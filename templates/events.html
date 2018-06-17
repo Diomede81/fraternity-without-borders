@@ -5,6 +5,19 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112810572-1"></script>
     <script>
+
+        console.log(window.innerWidth);
+        if (window.innerWidth < 1000){
+
+            console.log(window.innerWidth);
+
+            window.location.href = "mobile_pages/events_mobile.html";
+
+            console.log (window.location.pathname);
+
+        }
+    </script>
+    <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
@@ -108,6 +121,7 @@
         <span id="menu_vertical" onclick="openNav()" class="fa fa-bars"></span>
     </div>
 </nav>
+
 <div id="events-page" class="fullpage-wrapper">
     <section class="fp-section upcoming-events-section">
         <div class="main-container-news-events generic-news-container slide">
@@ -135,14 +149,19 @@
                 </div>
             </div>
             <div class="main-container-news-events" style="width:80%; height:100%; margin:0 auto;">
-            <img src="../img/customevents/event3.png" width="100%" height="100%">
+                <img src="../img/customevents/event3.png" width="100%" height="100%">
             </div>
         </div>
         <div class="main-container-news-events generic-news-container slide full-width" >
             <div class="events-news-overlay news-overlay">
-                <div class="generic-events-info-container">
-
-                    <a href="catwalk.html"><h2>More information</h2></a>
+                <div class="generic-events-info-container" style="height:auto; top:30%;">
+                    <h2>@Gustavo Nenao</h2>
+                    <div class="specific-events-info-inner-container" style="padding-bottom:30px;">
+                        <p>Launching his debut with <b>Not Just Yoga's</b> Travel in Style charity walk</p>
+                        <h3>Opening Times:</h3>
+                        <p>22.03.18 2018 7pm to 10pm </p>
+                        <p>After Party 10pm to late</p>
+                    </div>
                 </div>
             </div>
             <img src="../img/customevents/event2.png"  class="full-width-full-height">

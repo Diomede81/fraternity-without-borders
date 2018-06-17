@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 
 <head>
-    <meta charset="UTF-8">
-    <title>Event | Fraternity Without Borders</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112810572-1"></script>
+    <script>
+
+        console.log(window.innerWidth);
+        if (window.innerWidth > 1000){
+
+            console.log(window.innerWidth);
+
+            window.location.href = "events.html";
+
+            console.log (window.location.pathname);
+
+        }
+    </script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -19,22 +25,33 @@
         gtag('config', 'UA-112810572-1');
     </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="This is the who we are page, on this page you will be able to learn more about our charity and where do we come from">
-    <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="../css/reset.css">
-    <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <link rel="stylesheet" type="text/css" href="../js/fullPage.js-master/dist/jquery.fullpage.css">
-    <link rel="stylesheet" type="text/css" href="../css/overlay.css">
-    <link rel="stylesheet" type="text/css" href="../css/resolution_adjustments.css">
-    <link rel="stylesheet" type="text/css" href="../css/font-awesome-4.7.0/css/font-awesome.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#80BB3D"/>
+    <title>Recent News | Fraternity Without Borders</title>
+    <meta name="description" content="This is the our work page, here you will find information about our projects and our work to improve the life of people in Mozambique">
+    <link rel="stylesheet" type="text/css" href="../../bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../js/fullPage.js-master/dist/jquery.fullpage.css">
+    <link rel="stylesheet" type="text/css" href="../../css/overlay.css">
+    <link rel="stylesheet" type="text/css" href="../../css/resolution_adjustments.css">
+    <link rel="stylesheet" type="text/css" href="../../css/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../../css/animate.css">
+    <link href="../../bower_components/plyr/dist/plyr.css" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="../../bower_components/wow/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="../../bower_components/plyr/src/js/plyr.js"></script>
 
 </head>
-<body style="background:black;">
+<body>
 <nav >
     <div id="navigationbar">
-        <a href="../" target="_blank">
-            <img id="logo" src="../resources/logo.png" alt="Charity Logo" >
+        <a href="../../" target="_blank">
+            <img id="logo" src="../../resources/logo.png" alt="Charity Logo" >
         </a>
         <h1 id="quote">one people, one heart</h1>
         <div id="menulist">
@@ -68,13 +85,13 @@
         <div id="myNav" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="overlay-content">
-                <a href="../">HOME</a>
-                <a href="who_we_are.html">WHO WE ARE</a>
-                <a href="our_work.html">OUR WORK</a>
-                <a href="donate.html">DONATE</a>
+                <a href="../../">HOME</a>
+                <a href="../who_we_are.html">WHO WE ARE</a>
+                <a href="../our_work.html">OUR WORK</a>
+                <a href="../donate.html">DONATE</a>
                 <a href="events.html">RECENT NEWS</a>
-                <a href="artwork_sale_pages/artworks_main.html">artworks sale</a>
-                <a href="contact.html">CONTACT</a>
+                <a href="../artwork_sale_pages/artworks_main.html">artworks sale</a>
+                <a href="../contact.html">CONTACT</a>
                 <svg width="120" height="25" id="social_media_2">
                     <a href="https://www.facebook.com/fraternitywithoutborders/"  target="_blank">
                         <svg width="120" height="25" id="social_media_2">
@@ -104,47 +121,68 @@
         <span id="menu_vertical" onclick="openNav()" class="fa fa-bars"></span>
     </div>
 </nav>
-
-
-
-</div>
-<div class="carousel-container" >
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <div class="event-donation-container-catwalk" style="padding-bottom:0;">
-            <div class="donate-button-container" style="padding-bottom:0;">
-                <a  href="http://notjustyoga.co.uk/travel-style-nenao/" class="btn btn-default ">Book Tickets</a>
+<div id="events-page-mobile" class="white-text">
+    <section class=" upcoming-events-section-mobile">
+        <div class="main-container-news-events-mobile generic-news-container-mobile">
+            <img src="../../img/customevents/event3_mobile.png" width="100%" height="auto" style="margin-top:100px;">
+            <div class="specific-events-info-container-mobile" >
+                <h2>2nd photographic exhibition in London</h2>
+                <div class="specific-events-info-inner-container-mobile">
+                    <p>Following our recent sold out event at the Embassy of Brazil Fraternity without Borders would like to invite you for its 2nd photographic exhibition in London.
+                        This mini itinerant show will be exhibiting a collection of images of the charity's work in Mozambique.</p>
+                    <h3>Opening Times:</h3>
+                    <p>15th May to 26th June 2018</p>
+                    <p>Opening cocktail party on 15th may from 7pm till late with live brazilian music by Odila Giunta and Caco Barros</p>
+                    <ul>
+                        <li>Monday-Thursday 5pm -12:30am</li>
+                        <li>Friday: 4pm - 2am</li>
+                        <li>Saturday: 12pm - 2am</li>
+                        <li>Sunday: 12pm - 12:30am</li>
+                    </ul>
+                    <h3>Venue:</h3>
+                    <p>Made In Brasil Boteco
+                        48 Chalk Farm Road
+                        London, NW1 8AJ
+                    </p>
+                </div>
             </div>
+            <hr>
+            <div class="main-container-news-events-mobile" style="width:100%; height:auto; margin:0 auto;">
+                <img src="../../img/customevents/TravelinStyle-1_tablet.png" width="100%" height="100%">
+                <div class="specific-events-info-container-mobile" >
+                    <h2>@Gustavo Nenao</h2>
+                    <div class="specific-events-info-inner-container-mobile">
+                        <p>Launching his debut with <b>Not Just Yoga's</b> Travel in Style charity walk</p>
+                        <h3>Opening Times:</h3>
+                        <p>22.03.18 2018 7pm to 10pm </p>
+                        <p>After Party 10pm to late</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="main-container-news-events generic-news-container full-width" >
+            <div class="events-news-overlay-mobile">
+                <div class="generic-events-info-container-mobile">
+
+                    <img src="../../img/customevents/event_mobile.png"  width="100%" height="auto">
+                    <a href="exibition_mobile.html" class="btn btn-default full-width">Click here for more information</a>
+                </div>
+            </div>
+
         </div>
 
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="../img/customevents/event2.png" alt="First slide" width="100%" height="auto">
-            </div>
+
+    </section>
+
+
 
 </div>
-    </div>
-    <div class="event-donation-container-catwalk">
-        <div class="donate-button-container">
-            <a  href="donate.html#second-section" class="btn btn-default ">Donate</a>
-        </div>
-    </div>
-</div>
-<script src="../bower_components/jquery/dist/jquery.js"></script>
-<script type="text/javascript" src="../js/modernizr.2.5.3.min.js"></script>
-
-
-<script src="../js/main.js"></script>
-
-
-<script type="text/javascript" src="../js/turnjs4/extras/jquery.min.1.7.js"></script>
-<script src="../js/turnjs4/lib/turn.js"></script>
-<script type="text/javascript" src="../js/modernizr.2.5.3.min.js"></script>
-<script type="text/javascript" src="../js/turnjs4/lib/hash.js"></script>
-<script src="../js/fullPage.js-master/dist/jquery.fullpage.js"></script>
-
 </body>
-
-
-
 </html>
+<script src="../../bower_components/jquery/dist/jquery.js"></script>
+<script src="../../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+<script src="../../js/fullPage.js-master/dist/jquery.fullpage.js"></script>
+<script src="../../js/main.js"></script>
+<script src="../../js/recent_news.js"></script>

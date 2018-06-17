@@ -8,6 +8,8 @@ h2{
 }
 
 
+
+
 #myNav{
     text-transform: uppercase;
 }
@@ -1058,6 +1060,7 @@ ul li a{
 .generic-item-column-inner{
     border: 2px rgba(0,0,0,0.2) solid;
     padding:20px;
+    position:relative;
 }
 
 .clearfix{
@@ -1106,6 +1109,11 @@ ul li a{
     margin:50px auto 0 auto
 }
 
+.artworks-introduction-container h2 a{
+    font-size:0.8em;
+
+}
+
 .artwork-introduction-image-container{
     width:50%;
     margin:0 auto;
@@ -1144,7 +1152,12 @@ ul li a{
 
 .item-description-modal-footer p{
     margin-top:20px;
-    padding:70% 100px 50px 100px;
+    padding:70% 0 50px 0;
+    text-align:center;
+}
+
+.item-description-modal-footer{
+    padding: 0 5%;
 }
 
 .modal-title{
@@ -1159,6 +1172,11 @@ ul li a{
     overflow: hidden;
     position:absolute;
 
+}
+
+.picture-overlay-container img{
+    width:90%;
+    height:auto;
 }
 
 .image-overlay-information:hover {
@@ -1196,6 +1214,30 @@ ul li a{
     width:50%;
 
 }
+
+
+.item-description-modal-body img{
+    padding-bottom:8%;
+}
+
+.white-text{
+
+    color:white;
+}
+
+.specific-events-info-container-mobile{
+    margin-top:20px;
+    padding: 0 20px;
+    line-height: 1.2em;
+}
+
+.specific-events-info-container-mobile h3,.specific-events-info-container-mobile h2{
+    padding: 10px 0;
+}
+.specific-events-info-container-mobile p{
+    padding: 0 10px;
+}
+
 
 
 
