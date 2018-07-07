@@ -1,0 +1,234 @@
+{
+"artworks":
+[
+  {
+    "name": "photo_1",
+    "title": "The family",
+    "author": "Alisson Demetrio, 2017",
+    "location": "Matuba Village, Chokwe District, Mozambique",
+    "description": "Mother and sons assisted by Fraternity without Borders' social project pose for a family portrait.",
+    "price": 240,
+    "thumbnail": "photo_1.jpg",
+    "high_res": "photo_1_HR.jpg",
+    "paypal_value": "D4SJYE56L59YG"
+  },
+  {
+    "name": "photo_19",
+    "title": "Contrast",
+    "author": "Alisson Demetrio, 2017",
+    "location": "Matuba Village, Chokwe District, Mozambique",
+    "description": "An elderly lady with mental health issues lives alone next to a rubbish mountain in an isolated rural area in Chokwe District.",
+    "price": 210,
+    "thumbnail": "photo_19.jpg",
+    "high_res": "photo_19_HR.jpg",
+    "paypal_value": "V8EDY3K79MAVG"
+  },
+
+  {
+      "name": "photo_18",
+      "title" : "The observer",
+      "author" : "Alisson Demetrio, 2017",
+      "location" : "Matuba Village, Chokwe District, Mozambique",
+      "description" : "Boy with a broken arm playing his improvised toy watches the humanitarian mission going by.",
+      "price" : 210,
+      "thumbnail" : "photo_18.jpg",
+      "high_res" : "photo_18_HR.jpg",
+      "paypal_value" : "T3XUAXVEKZVZN"
+    },
+
+   {
+      "name": "photo_2",
+      "title" : "A window into a poor classroom",
+      "author" : "Fernanda Calixto, 2017",
+      "location" : "3 de Fevereiro Village, Mozambique",
+      "description" : "A 2012 study by UNESCO estimates that more than half of primary school pupils do not complete school in Mozambique. This is due to lack of clear water and food, orphanage, early marriage and pregnancy, distance from home to schools, lack of safe school spaces, overcrowded classrooms and lack of adequate number and quality teachers. <br> Fraternity without Borders is working on the ground to improve education by creating new classrooms and providing after-school tutoring. We are also providing for their basic needs such as clear water, food and hygiene support, so children can be children again and concentrate in studying and playing instead of spending their days fetching water and working to support their families.",
+      "price" : 210,
+      "thumbnail" : "photo_2.jpg",
+      "high_res" : "photo_2_HR.jpg",
+      "paypal_value" : "9KDGU9BC5PH7U"
+    },
+
+  {
+      "name": "photo_17",
+      "title" : "A door of hope",
+      "author" : "Alisson Demetrio, 2017",
+      "location" : "Matuba Village, Chokwe District, Mozambique",
+      "description" : "Orphan children look outside from their little mud house door.",
+      "price" : 210,
+      "thumbnail" : "photo_17.jpg",
+      "high_res" : "photo_17_HR.jpg",
+      "paypal_value" : "TUPVVB5E3D2DA"
+    },
+
+  {
+      "name": "photo_16",
+      "title" : "Dorita’s faith",
+      "author" : "Felipe Torres, 2016",
+      "location" : "Muzumuia, district of Chokwe, mozambique",
+      "description" : "Dorita is one of the ladies working in the village of Muzumuia since the beginning of the work of the charity in Mozambique. It is a custom in the community centres to say a prayer before starting the activities of the day. On this occasion Dorita prayed aloud, asking permission to begin the activities of the first agroecology lecture in the village. Prof. Gilmar Tavares from the Federal University of Lavras then gave a talk about the principles of agroecology, with practical composting and planting activities for more than 20 people from various villages in the region.",
+      "price" : 210,
+      "thumbnail" : "photo_16.jpg",
+      "high_res" : "photo_16_HR.jpg",
+      "paypal_value" : "HW7SH2AE7BVC8"
+    },
+
+  {
+      "name": "photo_5",
+      "title" : "Fraternity for all",
+      "author" : "Felipe Torres, 2016",
+      "location" : "Matuba Village, Chokwe District, Mozambique",
+      "description" : "Felipe Torres reports: ‘Fraternity without Borders also supports the elderly in total abandonment. This image captures a moment when a group of volunteers was walking an isolated old lady to the house of a relative, also taking with them provisions for the family. Walking hand in hand and chanting a local song, the mood was of joy and true brotherhood. I felt like transported to another place, in another world with more love, free of borders. We realised we were actually receiving more than giving. This is what we learned in Mozambique: the secret to happiness is helping others.’",
+      "price" : 210,
+      "thumbnail" : "photo_5.jpg",
+      "high_res" : "photo_5_HR.jpg",
+      "paypal_value" : "DMSJAAFENVYWG"
+    },
+
+  {
+      "name": "photo_14",
+      "title" : "Respect",
+      "author" : "Alisson Demetrio, 2017",
+      "location" : "Matuba Village, Chokwe District, Mozambique",
+      "description" : "Volunteer and international coordinator Dr. Andrei Moreira kisses the hand of an elderly lady assisted by Fraternity without Borders’ social project in reverence for her example of humility and resilience.",
+      "price" : 210,
+      "thumbnail" : "photo_14.jpg",
+      "high_res" : "photo_14_HR.jpg",
+      "paypal_value" : "FFTMUE539BDR4"
+    },
+
+  {
+      "name": "photo_15",
+      "title" : "A Well of Life",
+      "author" : "Gustavo Arrais, 2017",
+      "location" : "Chimbembe, Gaza Dristrict, Mozambique",
+      "description" : "Over half of the population in Mozambique lives without clean water (14.8 million people). More than 70% of poor households live in isolated rural areas and spend hours every day walking to collect water for their family. Not only does walking for water keep children out of school or take up time that parents could be using to earn money, but the water often carries diseases that can make everyone sick. This photograph portraits the groundbreaking ceremony for a water supply project in Chimbembe sponsored by the Brazilian actor Reynaldo Gianecchini. This is one of the 10 wells constructed by the charity in Mozambique so far, providing clean water for thousands of people in rural areas.",
+      "price" : 210,
+      "thumbnail" : "photo_15.jpg",
+      "high_res" : "photo_15_HR.jpg",
+      "paypal_value" : "LM96XVXD5525S"
+    },
+
+  {
+      "name": "photo_6",
+      "title" : "The anonymous visitor",
+      "author" : "Alisson Demetrio, 2017",
+      "location" : "Matuba Village, Chokwe District, Mozambique",
+      "description" : "DJ Alok meets an old lady assisted by the social project who recognised him from a visit in the year before. DJ Alok is an internationally renowned artist and proud volunteer and supporter of Fraternity without Borders.",
+      "price" : 210,
+      "thumbnail" : "photo_6.jpg",
+      "high_res" : "photo_6_HR.jpg",
+      "paypal_value" : "LZT77S7RGLY7Q"
+    },
+
+  {
+      "name": "photo_4",
+      "title" : "I can see you",
+      "author" : "Alisson Demetrio, 2017",
+      "location" : "Matuba Village, Chokwe District, Mozambique",
+      "description" : "Boy assisted by the project looks to the camera with curiosity.",
+      "price" : 260,
+      "thumbnail" : "photo_4.jpg",
+      "high_res" : "photo_4_HR.jpg",
+      "paypal_value" : "3MBKN4XQEY4RG"
+    },
+
+  {
+      "name": "photo_3",
+      "title" : "One heart feeling the other",
+      "author" : "Fernanda Calixto, 2017",
+      "location" : "3 de Fevereiro Village, Mozambique",
+      "description" : "Dr. Satyaki Afonso, medical volunteer reports: ‘On 19th July 2017 our medical mission attended approximately 650 children. Celine was brought to us carried by her mother in her back. This seriously malnourished 4 year-old girl weighted as much as a 2 years old child. She started having seizures since her first year of life and since then stopped walking and communicating. Because her mother could not walk 14km everyday with Celine in her back, the little girl did not eat every day. When I met Celine she did not utter a word, but she looked at me deeply. First she smiled with her eyes, then with her whole face. It was undoubtedly the most serene look I have seen in those intense days. Since this day Fraternity without Borders regularly donates life-saving supplies to the mother and has been providing for the continuity of her treatment so far.’",
+      "price" : 180,
+      "thumbnail" : "photo_3.jpg",
+      "high_res" : "photo_3_HR.jpg",
+      "paypal_value" : "AHWNLGTMGYW3E"
+    },
+
+  {
+      "name": "photo_10",
+      "title" : "Flowers of Africa",
+      "author" : "Alisson Demetrio, 2017",
+      "location" : "Matuba Village, Chokwe District, Mozambique",
+      "description" : "Teenage girls supported by the project rehearse for a presentation of traditional dance and music.",
+      "price" : 210,
+      "thumbnail" : "photo_10.jpg",
+      "high_res" : "photo_10_HR.jpg",
+      "paypal_value" : "52NMKDZPRVC62"
+    },
+
+  {
+      "name": "photo_11",
+      "title" : "Dance in Chimbembe",
+      "author" : "Felipe Torres, 2016",
+      "location" : "Chimbembe, Chokwe District, Mozambique",
+      "description" : "Children dance as an expression of their culture, their history, their joy and their will to live. Fraternity without Borders respects and encourages local cultures and promotes activities such as dance, theatre and music classes for all.",
+      "price" : 210,
+      "thumbnail" : "photo_11.jpg",
+      "high_res" : "photo_11_HR.jpg",
+      "paypal_value" : "H2V656J9CE6YU"
+    },
+
+  {
+      "name": "photo_9",
+      "title" : "Water and joy",
+      "author" : "Felipe Torres, 2016",
+      "location" : "Muzumuia, district of Chokwe, Mozambique",
+      "description" : "Portrait of women drawing water from a well drilled by Fraternity without Borders. According to a UNESCO report, more than 50% of the Mozambican population has no access to clean drinking water. In rural areas where the charity operates this figure is even worse, indicating a coverage of only 35% of potable water. In this context, clean and potable water is literally a source of joy!",
+      "price" : 210,
+      "thumbnail" : "photo_9.jpg",
+      "high_res" : "photo_9_HR.jpg",
+      "paypal_value" : "SZNH2HDMYAR52"
+    },
+
+ {
+      "name": "photo_12",
+      "title" : "Gratitude",
+      "author" : "Alisson Demetrio, 2017",
+      "location" : "Matuba Village, Chokwe District, Mozambique",
+      "description" : "Elderly lady welcomes the volunteers into her humble home.",
+      "price" : 210,
+      "thumbnail" : "photo_12.jpg",
+      "high_res" : "photo_12_HR.jpg",
+      "paypal_value" : "6V3MA3VQWDRYQ"
+    },
+
+  {
+      "name": "photo_13",
+      "title" : "Mission of love",
+      "author" : "Felipe Torres, 2016",
+      "location" : "Matuba Village, Chokwe District, Mozambique",
+      "description" : "A volunteer walks with a child near the village of Matuba. Fraternity without Borders organises humanitarian missions for volunteers seeking the life-changing experience of helping others with their own hands in Mozambique. Children are always very affectionate with the volunteers, who get to discover the hospitality and happiness of the Mozambican people, in a genuine experience of fraternity.",
+      "price" : 210,
+      "thumbnail" : "photo_13.jpg",
+      "high_res" : "photo_13_HR.jpg",
+      "paypal_value" : "4EBLQZAJ9VT7W"
+    },
+
+  {
+      "name": "photo_8",
+      "title" : "Mother and son",
+      "author" : "Felipe Torres, 2016",
+      "location" : "Matuba Village, Chokwe District, Mozambique",
+      "description" : "Young mother carries her son in her back in the traditional “capulana”, a colourful fabric used also as an ornament. The baby had just received a health check by a medical volunteer in one of our community centres.",
+      "price" : 210,
+      "thumbnail" : "photo_8.jpg",
+      "high_res" : "photo_8_HR.jpg",
+      "paypal_value" : "VZ2SMXXK58VEJ"
+    },
+
+  {
+      "name": "photo_7",
+      "title" : "A full dish to fight famine",
+      "author" : "Felipe Torres, 2016",
+      "location" : "Matuba Village, Chokwe District, Mozambique",
+      "description" : "209,000 meals are served daily in the 10 community centres built by the Fraternity without Borders. On that day 1000 meals were served in the Matuba community centre, which serves children who can often go for two or three days without food.",
+      "price" : 210,
+      "thumbnail" : "photo_7.jpg",
+      "high_res" : "photo_7_HR.jpg",
+      "paypal_value" : "YQ56LRCDJXWZG"
+    }
+
+  ]
+
+}
+
