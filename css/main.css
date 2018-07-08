@@ -1018,7 +1018,7 @@ ul li a{
     width:90%;
     height:auto;
 }
-.picture-overlay-container img.special-image{
+div.generic-item-column .picture-overlay-container img.special-image{
     width:42.5%;
     height:auto;
     margin:0 25%;
@@ -1076,6 +1076,12 @@ ul li a{
 
 .specific-events-info-container-mobile p{
     padding: 0 10px;
+}
+
+#player{
+
+    width:100%;
+
 }
 
 

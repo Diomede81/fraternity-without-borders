@@ -1,14 +1,13 @@
 
 $.getJSON('../../js/artworks_descriptions.json').done(function(data){
 
-    var baseSource="../../img/customevents/graffitti/";
+    // The below mechanism populates the artwork page dynamically
 
+    var baseSource="../../img/customevents/graffitti/";
     var artworkHTMLMainContainer = $('#artworks-sale-main-row-container');
     var artworkHTMLRowContainer = $('.artworks-sale-main-row');
 
     for (var i=1; i < data['artworks'].length ; i++){
-
-        console.log(data['artworks'][i]);
 
         $(artworkHTMLRowContainer).clone().appendTo(artworkHTMLMainContainer);
         $(artworkHTMLMainContainer).append(artworkHTMLRowContainer);
@@ -18,30 +17,18 @@ $.getJSON('../../js/artworks_descriptions.json').done(function(data){
         $(artworkHTMLRowContainer).find('.artworks-items-buttons-container').children('form').children('input[name=hosted_button_id]').attr('value',data['artworks'][i]['paypal_value']);
 
         if(data['artworks'][i]['name']=== 'photo_7' || data['artworks'][i]['name']=== 'photo_8'){
-
             $(artworkHTMLRowContainer).find('.picture-overlay-container img').addClass('special-image')
-
         }
     }
 
-    console.log(data);
+    // The below populates dinamically the modal window when a user clicks on the "more info" overlay on the artwork's thumbnail picture
 
     $(document).on('click','.image-overlay-information a', function(e){
 
         var source = $(e.currentTarget).parent('div').siblings('img').prop('src');
-
         var modalTextElement = $('#picture-description-modal').find('.item-description-modal-footer p');
-
-
-        var sourceIndex = source.indexOf('.');
-
+        var sourceIndex = (source.indexOf('j')-1);
         var commentIndex = (source.indexOf('_') - 5);
-
-        console.log(sourceIndex);
-
-        console.log(typeof sourceIndex);
-
-        console.log(data);
 
         source = source.slice(0,sourceIndex);
         source += "_HR.jpg";
@@ -54,29 +41,18 @@ $.getJSON('../../js/artworks_descriptions.json').done(function(data){
 
         var comment= source.substring(commentIndex,sourceIndex);
 
-        $(modalTextElement).html(findPicture(comment));
-
-        console.log(comment);
-
-
+        $(modalTextElement).html(findDescription(comment));
 
     });
 
-function findPicture(imageName){
+    // The below function finds the picture description in the Artworks object and return the description string
 
+function findDescription(imageName){
     for (var i=0; i < data['artworks'].length ; i++) {
-
         if(data['artworks'][i]['name'] === imageName){
-
             var description =  data['artworks'][i]['description']
-
         }
-
     }
-
     return description
-
 }
-
-
 });
